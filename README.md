@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped
-with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) & [`tailwindcss`](https://tailwindcss.com).
+
+## What I did
+
+First, I extracted all the fonts, colors & other stylings from figma and configured tailwind accordingly. Check
+out `tailwind.config.js`.
+Then, I began working on the footer component beginning with the structure of it.
+As always, the tricky part is the responsiveness of the component. I try different possible layouts until I find one
+that is good enough and is good-looking on all screens.
+
+> **_Note on allocation of space to each section:_**
+> At first, I allocated the same (equal) space for all 3 sections.
+> But then, I noticed that the 3rd section didn't need as much space as the second.
+> So I divided the inside of the footer to 10 equal parts and allocated 3, 4 and 3 parts for the 1st, 2nd and 3rd
+> sections
+> respectively.
 
 ## Getting Started
 
