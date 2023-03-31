@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 			lang="en"
 			className={`${merriweather.variable} ${poppins.variable}`}
 		>
-			<body className="bg-bg-light text-text">
+			<body className="bg-bg-light text-text flex items-center justify-center h-full min-h-screen">
 				{children} <Footer />
 			</body>
 		</html>
