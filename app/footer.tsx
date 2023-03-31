@@ -11,9 +11,9 @@ import linkedin from '@/public/assets/social-icons/linkedin.svg';
 export default function Footer() {
 	const [currentLanguage, setCurrentLanguage] = useState(languages[1]);
 	return (
-		<footer className="bg-bg-dark rounded-big p-24 pb-14 space-y-6 mx-5">
-			<div className="grid md:grid-cols-7 lg:grid-cols-10 gap-x-28 gap-y-14">
-				<section className="space-y-6 col-span-3 max-w-xs">
+		<footer className="bg-bg-dark md:rounded-big w-full md:w-fit p-12 pt-24 sm:p-24 sm:pb-14 space-y-6 md:mx-5">
+			<div className="grid grid-cols-1 md:grid-cols-7 lg:grid-cols-10 gap-x-28 gap-y-14">
+				<section className="space-y-6 col-span-1 md:col-span-3 max-w-xs">
 					<div className="font-black font-merriweather text-2xl">
 						About the store
 					</div>
@@ -52,7 +52,7 @@ export default function Footer() {
 						</ul>
 					</div>
 				</section>
-				<section className="space-y-6 col-span-4 max-w-xs">
+				<section className="space-y-6 col-span-1 md:col-span-4 max-w-xs">
 					<div className="font-black font-merriweather text-2xl">
 						Language
 					</div>
@@ -70,7 +70,7 @@ export default function Footer() {
 						))}
 					</div>
 				</section>
-				<section className="space-y-6 md:col-start-3 lg:col-start-auto col-span-3 max-w-xs">
+				<section className="space-y-6 col-span-1 md:col-span-3 md:col-start-3 lg:col-start-auto max-w-xs">
 					<div className="font-black font-merriweather text-2xl">
 						Get in touch
 					</div>
