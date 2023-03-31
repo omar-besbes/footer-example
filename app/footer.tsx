@@ -70,7 +70,7 @@ export default function Footer() {
 						))}
 					</div>
 				</section>
-				<section className="space-y-6 col-start-3 col-span-3 max-w-xs">
+				<section className="space-y-6 md:col-start-3 lg:col-start-auto col-span-3 max-w-xs">
 					<div className="font-black font-merriweather text-2xl">
 						Get in touch
 					</div>
